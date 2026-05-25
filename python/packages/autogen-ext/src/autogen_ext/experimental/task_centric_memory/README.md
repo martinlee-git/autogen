@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `microsoft/autogen`
+- 미러 저장소: `martinlee-git/autogen`
+- 원문 문서: https://github.com/microsoft/autogen/blob/main/python/packages/autogen-ext/src/autogen_ext/experimental/task_centric_memory/README.md
+- 미러 경로: `python/packages/autogen-ext/src/autogen_ext/experimental/task_centric_memory/README.md`
+
+## 한글 요약
+
+작업 중심 메모리(실험 중, 연구 진행 중) 작업 중심 메모리는 AI 에이전트에 다음 기능을 제공하는 것을 목표로 하는 활성 연구 프로젝트입니다. 상황 창 제한을 넘어 빠르고 지속적으로 학습하여 일반적인 작업을 보다 효과적으로 수행합니다. 사용자가 제공한 안내, 수정, 계획, 시연을 기억하세요. 상담원의 경험을 통해 배우고 변화하는 상황에 빠르게 적응하세요. 이전에 겪었던 것과 유사한 작업에서 실수를 반복하지 마십시오. 설치 AutoGen과 확장 패키지를 다음과 같이 설치합니다: Quickstart <p align="right" <img src="../../../../imgs/task centric memory 2.png" alt="Description" width="150" align="right" style="margin left: 10px;" </p 이 첫 번째 코드 조각은 오른쪽 다이어그램에 표시된 대로 기본 테스트를 실행하여 설치가 성공했는지 확인합니다. <p align="right" <img src="../../../../imgs/task 중심 메모리 3.png" alt="설명" width="150" align="right" style="여백 왼쪽
+
+## 핵심 발췌
+
+: 10px;" </p 이 두 번째 코드 예제는 작업 중심 메모리를 AutoGen 에이전트(이 경우 RoutedAgent의 하위 클래스)에 직접 통합하는 한 가지 방법을 보여줍니다. 코드를 짧게 유지하기 위해 이 에이전트는 가장 간단한 형태의 메모리 검색만 실행합니다. 샘플 코드 위의 예제는 에이전트의 코드를 수정합니다. 그러나 에이전트 코드를 수정하지 않고 에이전트 또는 다중 에이전트 팀에 작업 중심 메모리를 추가하는 것도 가능합니다. 이에 대한 샘플 코드와 다른 빠른 메모리 기반 형식에 대한 샘플 코드를 참조하세요. 학습 아키텍처 <p align="right" <img src="../../../../imgs/task centric memory.png" alt="Description" width="300" align="right" style="margin left: 10px;" </p 오른쪽의 블록 다이어그램은 가장 일반적인 형태로 아키텍처의 주요 구성 요소를 간략하게 설명합니다.
+
+## 원문 내용
+
 # Task-Centric Memory
 _(EXPERIMENTAL, RESEARCH IN PROGRESS)_
 
