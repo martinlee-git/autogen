@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `microsoft/autogen`
+- 미러 저장소: `martinlee-git/autogen`
+- 원문 문서: https://github.com/microsoft/autogen/blob/main/README.md
+- 미러 경로: `README.md`
+
+## 한글 요약
+
+<a name="readme top" </a <div align="center" <img src="https://microsoft.github.io/autogen/0.2/img/ag.svg" alt="AutoGen Logo" width="100" </div AutoGen AutoGen은 자율적으로 작동하거나 인간과 함께 작업할 수 있는 다중 에이전트 AI 애플리케이션을 만들기 위한 프레임워크입니다. 주의] ⚠️ 유지 관리 모드 AutoGen은 이제 유지 관리 모드에 있습니다. 새로운 기능이나 개선 사항은 제공되지 않으며 앞으로는 커뮤니티에서 관리됩니다. 신규 사용자는 Microsoft Agent Framework로 시작해야 합니다. 기존 사용자는 AutoGen → Microsoft Agent Framework 마이그레이션 가이드를 사용하여 마이그레이션하는 것이 좋습니다. MAF(Microsoft Agent Framework)는 AutoGen의 기업용 후속 제품입니다. Microsoft Agent FrameworkAF는 이제 프로덕션 준비 릴리스로 제공됩니다. 안정적인 API와 장기적인 지원을 약속합니다. 단일 도우미를 구축하든 전문 에이전트 그룹을 오케스트레이션하든 Microsoft Agent Framework 1.0은 엔터프라이즈급 다중 에이전트 오케스트레이션, 다중 공급자 모델 지원 및 cr을 제공합니다.
+
+## 핵심 발췌
+
+A2A 및 MCP를 통한 oss 런타임 상호 운용성. 설치 AutoGen에는 Python 3.10 이상이 필요합니다. 현재 안정 버전은 릴리스에서 찾을 수 있습니다. AutoGen v0.2에서 업그레이드하는 경우 코드 및 구성을 업데이트하는 방법에 대한 자세한 지침은 마이그레이션 가이드를 참조하세요. 빠른 시작 다음 샘플은 OpenAI API를 호출하므로 먼저 계정을 만들고 내보내기 OPENAI API KEY="sk ..."로 키를 내보내야 합니다. Hello World OpenAI의 GPT 4o 모델을 사용하여 보조 에이전트를 만듭니다. 다른 지원 모델을 확인하세요. MCP 서버 Playwright MCP 서버를 사용하는 웹 브라우징 보조 에이전트를 만듭니다. 경고 : 로컬 환경에서 명령을 실행하거나 민감한 정보를 노출할 수 있으므로 신뢰할 수 있는 MCP 서버에만 연결하세요. 다중 에이전트 오케스트레이션 귀하는 다음을 수행할 수 있습니다.
+
+## 원문 내용
+
 <a name="readme-top"></a>
 
 <div align="center">
