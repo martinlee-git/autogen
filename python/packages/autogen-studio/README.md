@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `microsoft/autogen`
+- 미러 저장소: `martinlee-git/autogen`
+- 원문 문서: https://github.com/microsoft/autogen/blob/main/python/packages/autogen-studio/README.md
+- 미러 경로: `python/packages/autogen-studio/README.md`
+
+## 한글 요약
+
+AutoGen Studio AutoGen Studio는 AI 에이전트를 신속하게 프로토타입화하고, 기술을 통해 강화하고, 워크플로로 구성하고, 상호 작용하여 작업을 수행하는 데 도움이 되는 AutoGen 기반 AI 앱(사용자 인터페이스)입니다. AI 에이전트 구축을 위한 툴킷인 AutoGen 프레임워크를 기반으로 구축되었습니다. AutoGen Studio용 코드는 GitHub(microsoft/autogen)에 있습니다. AutoGen Studio는 다중 에이전트 워크플로의 프로토타입을 신속하게 작성하고 AutoGen으로 구축된 최종 사용자 인터페이스의 예를 보여주기 위한 것입니다. 이는 프로덕션 준비가 된 앱이 아닙니다. 개발자는 AutoGen 프레임워크를 사용하여 자체 애플리케이션을 구축하고 배포된 애플리케이션에 필요한 인증, 보안 및 기타 기능을 구현하는 것이 좋습니다. 경고] AutoGen Studio는 활발히 개발 중입니다. 향후 릴리스에서는 획기적인 변화가 있을 것으로 예상됩니다. 보안에 대한 참고 사항 AutoGen Studio는 연구용 프로토타입이며 프로덕션 환경에서 사용하기 위한 것이 아닙니다. 일부 기본 관행이 권장됩니다.
+
+## 핵심 발췌
+
+예를 들어 에이전트에 Docker 코드 실행 환경을 사용합니다. 그러나 탈옥과 관련된 엄격한 테스트, 최종 사용자의 권한에 따라 LLM이 올바른 데이터 키에만 액세스할 수 있도록 보장하는 등의 기타 고려 사항과 기타 보안 기능은 AutoGen Studio에서 구현되지 않습니다. 프로덕션 애플리케이션을 구축하는 경우 AutoGen 프레임워크를 사용하고 필요한 보안 기능을 구현하십시오. 업데이트 2024 11 14: 업데이트된 AutoGen 0.4.0 api AgentChat API를 사용하도록 AutoGen Studio가 다시 작성되고 있습니다. 2024 04 17: 4월 17일: 이제 AutoGen Studio 데이터베이스 계층이 SQLModel(Pydantic + SQLAlchemy)을 사용하도록 다시 작성되었습니다. 이는 엔터티 연결(기술, 모델, 에이전트 및 워크플로가 연관 테이블을 통해 연결됨)을 제공하고 여러 데이터베이스 백엔드 방언 지원을 지원합니다.
+
+## 원문 내용
+
 # AutoGen Studio
 
 [![PyPI version](https://badge.fury.io/py/autogenstudio.svg)](https://badge.fury.io/py/autogenstudio)
