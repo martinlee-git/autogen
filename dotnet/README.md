@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `microsoft/autogen`
+- 미러 저장소: `martinlee-git/autogen`
+- 원문 문서: https://github.com/microsoft/autogen/blob/main/dotnet/README.md
+- 미러 경로: `dotnet/README.md`
+
+## 한글 요약
+
+.NET용 AutoGen 여기에는 두 가지 패키지 세트가 있습니다. AutoGen.\ .NET용 AutoGen 0.2에서 파생된 이전 패키지는 점차적으로 더 이상 사용되지 않으며 새 패키지인 Microsoft.AutoGen으로 이식됩니다. 이벤트 기반 모델을 사용하는 .NET용 새 패키지 이러한 API는 아직 안정적이지 않으며 변경될 수 있습니다. 새 패키지를 시작하려면 샘플, 특히 Hello 샘플을 참조하세요. 다음 피드에서 새 패키지와 이전 패키지를 모두 설치할 수 있습니다. [!NOTE] Nightly 빌드는 다음에서 사용할 수 있습니다. <https://pkgs.dev.azure.com/AGPublish/AGPublic/packaging/AutoGen Nightly/nuget/v3/index.json 먼저 설치 가이드에 따라 AutoGen 패키지를 설치합니다. 그런 다음 다음 코드 조각으로 시작하여 대화 가능한 에이전트를 만들고 대화할 수 있습니다. 샘플 샘플 프로젝트에서 더 많은 예제를 찾을 수 있습니다. 기능 ConversableAgent [x] 함수 호출 [x] 코드 실행(dotnet 전용, dotnet Interactive 기반) 에이전트 통신 [x] 두 에이전트 채팅
+
+## 핵심 발췌
+
+[x] 그룹 채팅 [ ] dotnet 전용의 향상된 LLM 추론 [x] 유형 안전 함수 정의 생성을 위한 소스 생성기
+
+## 원문 내용
+
 # AutoGen for .NET
 
 Thre are two sets of packages here:
