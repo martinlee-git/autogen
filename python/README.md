@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `microsoft/autogen`
+- 미러 저장소: `martinlee-git/autogen`
+- 원문 문서: https://github.com/microsoft/autogen/blob/main/python/README.md
+- 미러 경로: `python/README.md`
+
+## 한글 요약
+
+AutoGen Python 개발 가이드 이 디렉토리는 패키지/autogen 코어: 에이전트 런타임, 모델, 도구, 워크벤치, 메모리, 추적의 인터페이스 정의 및 참조 구현을 포함한 모든 프로젝트 패키지를 포함하는 단일 uv 작업 공간으로 작동합니다. packages/autogen Agentchat: Autogen Core를 기반으로 구축된 단일 및 다중 에이전트 워크플로입니다. packages/autogen ext: 생태계 통합을 위한 구현입니다. 예를 들어 autogen ext[openai]는 OpenAI 모델 클라이언트를 제공합니다. packages/autogen studio: AutoGen 에이전트를 구축하고 실행하기 위한 웹 기반 IDE입니다. 0.2.x에서 마이그레이션하시나요? 코드를 0.2.x에서 0.4.x로 마이그레이션하는 방법은 마이그레이션 가이드를 참조하세요. 빠른 시작 TL;DR, 다음을 사용하여 모든 검사를 실행하십시오. Setup uv는 AutoGen을 실행하는 데 필요한 환경을 생성하고 패키지를 설치하는 데 도움을 주는 패키지 관리자입니다. UV를 설치합니다. uv를 최신 버전으로 업그레이드하려면 다음을 실행하십시오: 가상 환경 개발 중에 패키지에 대한 변경 사항을 테스트해야 할 수도 있습니다.\ 그렇게 하려면 crea
+
+## 핵심 발췌
+
+디렉터리의 현재 상태에 따라 AutoGen 패키지가 설치된 가상 환경을 만듭니다.\ Python 디렉터리의 루트 수준에서 다음 명령을 실행합니다. uv sync all extras는 현재 수준에서 .venv 디렉터리를 생성하고 다른 종속성과 함께 현재 디렉터리에서 패키지를 설치합니다. all extras 플래그는 선택적 종속성을 추가합니다. source .venv/bin/activate는 가상 환경을 활성화합니다. 일반 작업 PR(풀 요청)을 생성하려면 다음 확인 사항이 충족되는지 확인하세요. 각 검사를 개별적으로 실행할 수 있습니다. 형식: poe format Lint: poe lint 테스트: poe test Mypy: poe mypy Pyright: poe pyright 빌드 문서: poe docs build 문서 확인: poe docs check 문서 정리: poe docs clean API 참조의 코드 블록 확인: poe docs check 예제 자동 재구축
+
+## 원문 내용
+
 # AutoGen Python Development Guide
 
 [![Docs (dev)](https://img.shields.io/badge/Docs-dev-blue)](https://microsoft.github.io/autogen/dev/)
