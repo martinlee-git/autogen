@@ -1,3 +1,20 @@
+# 설치
+
+- 원문 저장소: `microsoft/autogen`
+- 미러 저장소: `martinlee-git/autogen`
+- 원문 문서: https://github.com/microsoft/autogen/blob/main/docs/dotnet/core/installation.md
+- 미러 경로: `docs/dotnet/core/installation.md`
+
+## 한글 요약
+
+설치 .NET cli를 통해 설치 또는 패키지 관리자를 통해 설치 또는 <PackageReference를 통해 추가 추가 패키지 Core 및 Contracts 패키지는 단일 프로세스 내에서 Core API를 사용하여 에이전트를 작성하고 실행하는 데 필요한 것을 제공합니다. Microsoft.AutoGen.AgentChat Core SDK 위에 채팅 중심 에이전트 오케스트레이션을 구축하기 위한 AgentChat 패키지 구현 Microsoft.AutoGen.Agents는 사용할 수 있는 소수의 기본 에이전트가 포함된 패키지입니다. Microsoft.AutoGen.Extensions Aspire, Microsoft.Extensions.AI 및 Semantic Kernel을 포함하여 밀접하게 관련된 프로젝트를 지원하는 확장 Python과 .NET 에이전트 간의 x 언어 통신을 허용하는 다양한 프로세스의 에이전트로 시스템을 실행할 수 있도록 하기 위해 추가 패키지가 있습니다. Microsoft.AutoGen.Core.Grpc 분산 시스템의 에이전트에 대한 .NET 클라이언트 런타임입니다. Microsoft.AutoGen.Core 와 동일한 API가 있습니다. Microsoft.AutoGen.RuntimeGatewway.Grpc 분산의 .NET 서버측
+
+## 핵심 발췌
+
+여러 게이트웨이를 실행하여 에이전트 집합을 관리하고 x 언어 상호 운용성을 가능하게 하는 시스템입니다. Microsoft.AutoGen.AgentHost Grpc 서비스를 호스팅하는 .NET Aspire 프로젝트
+
+## 원문 내용
+
 # Installation
 
 Install via `.NET cli`
