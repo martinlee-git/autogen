@@ -1,3 +1,20 @@
+# 지도 시간
+
+- 원문 저장소: `microsoft/autogen`
+- 미러 저장소: `martinlee-git/autogen`
+- 원문 문서: https://github.com/microsoft/autogen/blob/main/docs/dotnet/core/tutorial.md
+- 미러 경로: `docs/dotnet/core/tutorial.md`
+
+## 한글 요약
+
+자습서 [!TIP] 코드만 보고 싶다면 여기에서 전체 샘플을 프로젝트로 사용할 수 있습니다. 이 튜토리얼에서는 10에서 1까지 카운트다운하는 두 개의 에이전트인 Modifier와 Checker를 정의할 것입니다. Modifier 에이전트는 카운트를 수정하고 Checker 에이전트는 카운트를 확인하고 카운트가 1에 도달하면 애플리케이션을 중지합니다. 메시지 유형 정의 가장 먼저 해야 할 일은 에이전트 간에 전달될 메시지를 정의하는 것입니다. 우리는 이를 클래스로 정의할 것입니다. CountMessage를 사용하여 현재 개수를 전달하고 CountUpdate를 사용하여 업데이트된 개수를 전달하겠습니다. !code csharp[] !code csharp[] 메시지 유형을 강력한 유형의 클래스로 분리함으로써 에이전트가 특정 유형에 반응하고 특정 유형을 생성하는 워크플로를 구축할 수 있습니다. BaseAgent에서 상속되는 에이전트 만들기 AutoGen에서 에이전트는 메시지를 받고 보낼 수 있는 클래스입니다. 에이전트는 수신한 메시지로 수행할 작업에 대한 자체 논리를 정의합니다. a를 정의하려면
+
+## 핵심 발췌
+
+gent, 다음과 같이 @Microsoft.AutoGen.Core.BaseAgent에서 상속되는 클래스를 만듭니다. 에이전트가 생성될 때 에이전트에 인수를 전달하는 방법을 살펴보겠습니다. 하지만 지금은 @Microsoft.AutoGen.Contracts.AgentId 및 @Microsoft.AutoGen.Core.IAgentRuntime이 항상 생성자에 전달되고 이러한 내용이 기본 클래스 생성자에 전달되어야 한다는 점만 알아야 합니다. 다른 두 인수는 에이전트에 대한 설명과 선택적 로거입니다. 여기에서 에이전트 ID가 무엇인지 자세히 알아보세요. 핸들러 생성 이제 Modifier가 CountMessage를 수신하고 카운트를 수정한 후 CountUpdate를 생성하도록 합니다. 이를 위해서는 IHandle<CountMessage 인터페이스를 구현해야 합니다. 구독 추가 CountMessage가 이 에이전트에 전달될 때 호출될 함수를 정의했지만
+
+## 원문 내용
+
 # Tutorial
 
 > [!TIP]
