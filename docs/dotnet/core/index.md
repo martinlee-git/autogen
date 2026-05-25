@@ -1,3 +1,20 @@
+# 색인
+
+- 원문 저장소: `microsoft/autogen`
+- 미러 저장소: `martinlee-git/autogen`
+- 원문 문서: https://github.com/microsoft/autogen/blob/main/docs/dotnet/core/index.md
+- 미러 경로: `docs/dotnet/core/index.md`
+
+## 한글 요약
+
+AutoGen Core AutoGen Core for .NET은 Python 대응 항목과 동일한 개념 및 규칙을 따릅니다. 실제로 .NET 버전의 개념을 이해하려면 먼저 Python 설명서를 읽어 보는 것이 좋습니다. 달리 명시하지 않는 한 Python 버전의 개념은 .NET에 매핑됩니다. 언어 버전 간의 중요한 차이점은 Python과의 차이점 섹션에 설명되어 있습니다. 종속성 주입이나 호스트 빌더 패턴과 같이 특정 언어에만 영향을 미치는 항목의 경우 차이점 문서에 지정되지 않습니다. 시작하기 SDK를 너겟 패키지로 얻거나 저장소를 복제하여 얻을 수 있습니다. SDK는 NuGet에서 사용할 수 있습니다. 최소한 다음 사항이 필요합니다. 모든 관련 패키지 설치에 대한 자세한 내용은 설치를 참조하세요. 저장소의 샘플 디렉터리에 있는 샘플을 보면 빠르게 시작할 수 있습니다. 에이전트 생성 에이전트를 생성하려면 BaseAgent에서 상속하고 이벤트 핸들러를 구현할 수 있습니다.
+
+## 핵심 발췌
+
+당신이 관심 있는 이벤트를 위해. 다음은 BaseAgent에서 상속하고 이벤트 핸들러를 구현하는 방법을 보여주는 최소한의 예입니다. BaseAgent를 재정의하면 런타임 및 로깅 유틸리티에 액세스할 수 있고 IHandle<T를 구현하면 사용자 정의 메시지에 대한 이벤트 처리 방법을 쉽게 정의할 수 있습니다. 응용 프로그램에서 에이전트 실행 응용 프로그램에서 에이전트를 실행하려면 AgentsAppBuilder 클래스를 사용할 수 있습니다. 다음은 애플리케이션에서 'HelloAgent' 에이전트를 실행하는 방법에 대한 예입니다. .NET SDK 런타임 .NET SDK에는 클라우드에서 에이전트를 실행하기 위한 InMemory 단일 프로세스 런타임과 원격 분산 런타임이 모두 포함되어 있습니다. 분산 런타임은 Python 및 .NET에서 에이전트 실행을 지원하므로 해당 에이전트가 서로 통신할 수 있습니다. 분산 런타임
+
+## 원문 내용
+
 # AutoGen Core
 
 AutoGen Core for .NET follows the same concepts and conventions of its Python counterpart. In fact, in order to understand the concepts in the .NET version, we recommend reading the [Python documentation](https://microsoft.github.io/autogen/stable/) first. Unless otherwise stated, the concepts in the Python version map to .NET.
