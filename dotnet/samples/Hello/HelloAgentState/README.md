@@ -1,3 +1,20 @@
+# 읽어보기
+
+- 원문 저장소: `microsoft/autogen`
+- 미러 저장소: `martinlee-git/autogen`
+- 원문 문서: https://github.com/microsoft/autogen/blob/main/dotnet/samples/Hello/HelloAgentState/README.md
+- 미러 경로: `dotnet/samples/Hello/HelloAgentState/README.md`
+
+## 한글 요약
+
+AutoGen 0.4 .NET Hello World 샘플 이 샘플은 이벤트를 수신한 다음 응답으로 일련의 작업을 조정하는 간단한 .NET 콘솔 애플리케이션을 만드는 방법을 보여줍니다. 전제 조건 이 샘플을 실행하려면 .NET 8.0 이상이 필요합니다. GitHub CLI도 권장됩니다. 샘플 실행 지침 주요 개념 이 샘플은 기본 에이전트에서 상속하고 이벤트를 수신하는 고유한 에이전트를 만드는 방법을 보여줍니다. 또한 SDK의 앱 런타임을 로컬에서 사용하여 에이전트를 시작하고 메시지를 보내는 방법도 보여줍니다. 흐름도: 이벤트 핸들러 작성 자동 생성 애플리케이션의 핵심은 이벤트 핸들러입니다. 에이전트는 특정 주제에 대한 이벤트를 수신하기 위해 를 선택합니다. 이벤트가 수신되면 에이전트의 이벤트 핸들러가 이벤트 데이터와 함께 호출됩니다. 해당 이벤트 핸들러 내에서 선택적으로 새 이벤트를 내보낼 수 있으며, 그런 다음 다른 에이전트가 처리할 수 있도록 이벤트 버스로 전송됩니다. EventTypes는 스키마를 정의하는 데 사용되는 gRPC ProtoBuf 메시지로 선언됩니다.
+
+## 핵심 발췌
+
+이벤트. 기본 proto는 네임스페이스를 통해 사용할 수 있으며 autogen/protos에 정의되어 있습니다. EventType은 인터페이스를 사용하여 에이전트 생성자에 등록됩니다. 상속 및 구성 이 샘플은 AutoGen의 상속도 보여줍니다. HelloAgent 클래스는 WriteConsole 메서드를 제공하는 기본 클래스인 ConsoleAgent에서 상속됩니다. 응용 프로그램 런타임 시작 AuotoGen은 다양한 방법으로 시작할 수 있는 유연한 런타임을 제공합니다. Program.cs 파일은 런타임을 로컬로 시작하고 메서드를 사용하여 한 번에 에이전트에 메시지를 보내는 방법을 보여줍니다. 메시지 보내기 가능한 메시지 세트는 gRPC ProtoBuf 사양에 정의되어 있습니다. 그런 다음 gRPC 도구를 통해 C# 클래스로 변환됩니다. 새로운 .pro 파일을 생성하여 자신만의 메시지 유형을 정의할 수 있습니다.
+
+## 원문 내용
+
 # AutoGen 0.4 .NET Hello World Sample
 
 This [sample](Program.cs) demonstrates how to create a simple .NET console application that listens for an event and then orchestrates a series of actions in response.
