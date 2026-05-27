@@ -7,7 +7,7 @@
 
 ## 한글 요약
 
-AutoGenBench AutoGenBench(agbench)는 초기 조건이 엄격하게 제어되는 설정에서 사전 정의된 AutoGen 작업 세트를 반복적으로 실행하기 위한 도구입니다. 실행할 때마다 AutoGenBench는 빈 상태에서 시작됩니다. 평가 중인 에이전트는 작업을 해결하기 위해 작성해야 할 코드와 설치할 라이브러리 또는 종속성을 해결해야 합니다. 각 실행의 결과는 기록되며 분석 또는 메트릭 스크립트(예: agbench tabulate)를 통해 수집될 수 있습니다. 기본적으로 모든 실행은 새로 초기화된 Docker 컨테이너에서 수행되므로 권장 수준의 일관성과 안전성을 제공합니다. AutoGenBench는 모든 AutoGen 0.1에서 작동합니다. , and 0.2. 버전. 기술 사양 이미 AutoGenBench 전문가이고 전체 기술 사양을 원하는 경우 기여자 가이드를 검토하십시오. Docker 요구 사항 AutoGenBench에는 Docker(데스크톱 또는 엔진)도 필요합니다. 기본 실행을 선택하지 않는 한 GitHub codespaces에서는 실행되지 않습니다.
+AutoGenBench AutoGenBench(agbench)는 초기 조건이 엄격하게 제어되는 설정에서 사전 정의된 AutoGen 작업 세트를 반복적으로 실행하기 위한 도구입니다. 실행할 때마다 AutoGenBench는 빈 상태에서 시작됩니다. 평가 중인 에이전트는 작업을 해결하기 위해 작성해야 할 코드와 설치할 라이브러리 또는 종속성을 해결해야 합니다. 각 실행의 결과는 기록되며 분석 또는 메트릭 스크립트(예: agbench tabulate)를 통해 수집될 수 있습니다. 기본적으로 모든 실행은 새로 초기화된 Docker 컨테이너에서 수행되므로 권장 수준의 일관성과 안전성을 제공합니다. AutoGenBench는 모든 AutoGen 0.1에서 작동합니다. , 및 0.2. 버전. 기술 사양 이미 AutoGenBench 전문가이고 전체 기술 사양을 원하는 경우 기여자 가이드를 검토하십시오. Docker 요구 사항 AutoGenBench에는 Docker(데스크톱 또는 엔진)도 필요합니다. 기본 실행을 선택하지 않는 한 GitHub codespaces에서는 실행되지 않습니다.
 
 ## 핵심 발췌
 
