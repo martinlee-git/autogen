@@ -7,7 +7,7 @@
 
 ## 한글 요약
 
-AutoGen.LMStudio 이 패키지는 LMStudio 로컬 서버에서 API와 같은 openai 사용을 지원합니다. 설치 AutoGen.LMStudio를 사용하려면 .csproj 파일에 다음 패키지를 추가하세요. 0.0.7(2024 02 11)의 사용 업데이트 기록 업데이트 LMStudio 로컬 서버에서 API와 같은 openai 사용을 지원하려면 LMStudioAgent를 추가하세요.
+AutoGen.LMStudio 이 패키지는 LMStudio 로컬 서버에서 API와 같은 openai 사용을 지원합니다. 설치 AutoGen.LMStudio를 사용하려면 .csproj 파일에 다음 패키지를 추가하십시오. 0.0.7(2024 02 11)의 사용 업데이트 기록 업데이트 LMStudio 로컬 서버에서 API와 같은 openai 사용을 지원하려면 LMStudioAgent를 추가하세요.
 
 ## 핵심 발췌
 
