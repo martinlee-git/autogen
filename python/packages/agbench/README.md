@@ -11,7 +11,7 @@ AutoGenBench AutoGenBench(agbench)는 초기 조건이 엄격하게 제어되는
 
 ## 핵심 발췌
 
-게드). Docker Desktop을 설치하려면 https://www.docker.com/products/docker Desktop/을 참조하세요. WSL에서 작업하는 경우 아래 지침에 따라 환경을 설정할 수 있습니다. 1. Docker Desktop을 설치합니다. 설치 후 다시 시작해야 하며 설정, 리소스, WSL 통합에서 Docker Desktop을 열고 추가 배포판과 통합 활성화 - Ubuntu 2. 자동 생성을 복제하고 AUTOGEN REPO BASE를 내보냅니다. 이 환경 변수를 사용하면 Docker 컨테이너가 올바른 버전 에이전트를 사용할 수 있습니다. 설치 및 설정 [현재 더 이상 사용되지 않음] AutoGenBench를 최대한 활용하려면 agbench 패키지를 설치해야 합니다. 현재 가장 쉬운 방법은 pip를 통해 설치하는 것입니다. 소스 코드로 작업하는 것을 선호하는 경우(예: 개발 또는 대체 브랜치 활용) sim
+게드). Docker Desktop을 설치하려면 https://www.docker.com/products/docker Desktop/을 참조하세요. WSL에서 작업하는 경우 아래 지침에 따라 환경을 설정할 수 있습니다. 1. Docker Desktop을 설치합니다. 설치 후 다시 시작해야 하며 설정, 리소스, WSL 통합에서 Docker Desktop을 열고 추가 배포판과 통합 활성화 - Ubuntu 2. 자동 생성을 복제하고 AUTOGEN REPO BASE를 내보냅니다. 이 환경 변수를 사용하면 Docker 컨테이너가 올바른 버전 에이전트를 사용할 수 있습니다. 설치 및 설정 [현재 더 이상 사용되지 않음] AutoGenBench를 최대한 활용하려면 agbench 패키지를 설치해야 합니다. 현재 가장 쉬운 방법은 pip를 통해 설치하는 것입니다. 소스 코드로 작업하는 것을 선호한다면(예: 개발을 위해 또는 대체 브랜치를 활용하기 위해) sim
 
 ## 원문 내용
 
