@@ -7,11 +7,11 @@
 
 ## 한글 요약
 
-AutoGenBench AutoGenBench(agbench)는 초기 조건이 엄격하게 제어되는 설정에서 사전 정의된 AutoGen 작업 세트를 반복적으로 실행하기 위한 도구입니다. 실행할 때마다 AutoGenBench는 빈 상태에서 시작됩니다. 평가 중인 에이전트는 작업을 해결하기 위해 작성해야 할 코드와 설치할 라이브러리 또는 종속성을 해결해야 합니다. 각 실행의 결과는 기록되며 분석 또는 메트릭 스크립트(예: agbench tabulate)를 통해 수집될 수 있습니다. 기본적으로 모든 실행은 새로 초기화된 Docker 컨테이너에서 수행되므로 권장 수준의 일관성과 안전성을 제공합니다. AutoGenBench는 모든 AutoGen 0.1에서 작동합니다. , 및 0.2. 버전. 기술 사양 이미 AutoGenBench 전문가이고 전체 기술 사양을 원하는 경우 기여자 가이드를 검토하십시오. Docker 요구 사항 AutoGenBench에는 Docker(데스크톱 또는 엔진)도 필요합니다. 기본 실행을 선택하지 않는 한 GitHub codespaces에서는 실행되지 않습니다.
+AutoGenBench AutoGenBench(agbench)는 초기 조건이 엄격하게 제어되는 설정에서 사전 정의된 AutoGen 작업 세트를 반복적으로 실행하기 위한 도구입니다. 실행할 때마다 AutoGenBench는 빈 상태에서 시작됩니다. 평가 중인 에이전트는 작업을 해결하기 위해 작성해야 할 코드와 설치할 라이브러리 또는 종속성을 해결해야 합니다. 각 실행의 결과는 기록되며 분석 또는 메트릭 스크립트(예: agbench tabulate)를 통해 수집될 수 있습니다. 기본적으로 모든 실행은 새로 초기화된 Docker 컨테이너에서 수행되므로 권장 수준의 일관성과 안전성을 제공합니다. AutoGenBench는 모든 AutoGen 0.1에서 작동합니다. 및 0.2. 버전. 기술 사양 이미 AutoGenBench 전문가이고 전체 기술 사양을 원하는 경우 기여자 가이드를 검토하십시오. Docker 요구 사항 AutoGenBench에는 Docker(데스크톱 또는 엔진)도 필요합니다. 기본 실행을 선택하지 않는 한 GitHub codespaces에서는 실행되지 않습니다.
 
 ## 핵심 발췌
 
-게드). Docker Desktop을 설치하려면 https://www.docker.com/products/docker Desktop/을 참조하세요. WSL에서 작업하는 경우 아래 지침에 따라 환경을 설정할 수 있습니다. 1. Docker Desktop을 설치합니다. 설치 후 다시 시작해야 하며 설정, 리소스, WSL 통합에서 Docker Desktop을 열고 추가 배포판과 통합 활성화 – Ubuntu 2. 자동 생성을 복제하고 AUTOGEN REPO BASE를 내보냅니다. 이 환경 변수를 사용하면 Docker 컨테이너가 올바른 버전 에이전트를 사용할 수 있습니다. 설치 및 설정 [현재 더 이상 사용되지 않음] AutoGenBench를 최대한 활용하려면 agbench 패키지를 설치해야 합니다. 현재 가장 쉬운 방법은 pip를 통해 설치하는 것입니다. 소스 코드로 작업하는 것을 선호하는 경우(예: 개발 또는 대체 브랜치 활용) sim
+게드). Docker Desktop을 설치하려면 https://www.docker.com/products/docker Desktop/을 참조하세요. WSL에서 작업하는 경우 아래 지침에 따라 환경을 설정할 수 있습니다. 1. Docker Desktop을 설치합니다. 설치 후 다시 시작해야 하며 설정, 리소스, WSL 통합에서 Docker Desktop을 열고 추가 배포판과 통합 활성화 - Ubuntu 2. 자동 생성을 복제하고 AUTOGEN REPO BASE를 내보냅니다. 이 환경 변수를 사용하면 Docker 컨테이너가 올바른 버전 에이전트를 사용할 수 있습니다. 설치 및 설정 [현재 더 이상 사용되지 않음] AutoGenBench를 최대한 활용하려면 agbench 패키지를 설치해야 합니다. 현재 가장 쉬운 방법은 pip를 통해 설치하는 것입니다. 소스 코드로 작업하는 것을 선호하는 경우(예: 개발 또는 대체 브랜치 활용) sim
 
 ## 원문 내용
 
