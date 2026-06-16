@@ -11,7 +11,7 @@
 
 ## 핵심 발췌
 
-gent, 다음과 같이 @Microsoft.AutoGen.Core.BaseAgent에서 상속되는 클래스를 만듭니다. 에이전트가 생성될 때 에이전트에 인수를 전달하는 방법을 살펴보겠습니다. 하지만 지금은 @Microsoft.AutoGen.Contracts.AgentId 및 @Microsoft.AutoGen.Core.IAgentRuntime이 항상 생성자에 전달되고 이러한 내용이 기본 클래스 생성자에 전달되어야 한다는 점만 알아야 합니다. 다른 두 인수는 에이전트에 대한 설명과 선택적 로거입니다. 여기에서 에이전트 ID가 무엇인지 자세히 알아보세요. 핸들러 생성 이제 Modifier가 CountMessage를 수신하고 카운트를 수정한 후 CountUpdate를 생성하도록 합니다. 이를 위해서는 IHandle<CountMessage 인터페이스를 구현해야 합니다. 구독 추가 CountMessage가 이 에이전트에 전달될 때 호출될 함수를 정의했지만
+다음과 같이 @Microsoft.AutoGen.Core.BaseAgent에서 상속되는 클래스를 만듭니다. 에이전트가 생성될 때 에이전트에 인수를 전달하는 방법을 살펴보겠습니다. 하지만 지금은 @Microsoft.AutoGen.Contracts.AgentId 및 @Microsoft.AutoGen.Core.IAgentRuntime이 항상 생성자에 전달되고 이러한 내용이 기본 클래스 생성자에 전달되어야 한다는 점만 알아야 합니다. 다른 두 인수는 에이전트에 대한 설명과 선택적 로거입니다. 여기에서 에이전트 ID가 무엇인지 자세히 알아보세요. 핸들러 생성 이제 Modifier가 CountMessage를 수신하고 카운트를 수정한 후 CountUpdate를 생성하도록 합니다. 이를 위해서는 IHandle<CountMessage 인터페이스를 구현해야 합니다. 구독 추가 CountMessage가 이 에이전트에 전달될 때 호출될 함수를 정의했지만
 
 ## 원문 내용
 
