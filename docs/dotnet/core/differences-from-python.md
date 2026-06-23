@@ -7,7 +7,7 @@
 
 ## 한글 요약
 
-Differences from Python Publishing to a topic that an agent is also subscribed to [!NOTE] TLDR; 기본 동작은 동일합니다. When an agent publishes a message to a topic to which it also listens, the message will not be received by the agent that sent it. This is also the behavior in the Python runtime. 그러나 이전 사용을 지원하려면 @Microsoft.AutoGen.Core.InProcessRuntime에서 TopicSubscription 특성의 @Microsoft.AutoGen.Core.InProcessRuntime.DeliverToSelf 속성을 true로 설정하여 에이전트가 보내는 메시지를 수신하도록 허용할 수 있습니다.
+에이전트가 TLDR도 구독하는 주제에 대한 Python 게시와의 차이점 기본 동작은 동일합니다. 에이전트가 수신 대기 중인 주제에 메시지를 게시하면 해당 메시지를 보낸 에이전트가 해당 메시지를 수신하지 않습니다. 이는 Python 런타임에서도 마찬가지입니다. 그러나 이전 사용을 지원하려면 @Microsoft.AutoGen.Core.InProcessRuntime에서 TopicSubscription 특성의 @Microsoft.AutoGen.Core.InProcessRuntime.DeliverToSelf 속성을 true로 설정하여 에이전트가 보내는 메시지를 수신하도록 허용할 수 있습니다.
 
 ## 핵심 발췌
 
