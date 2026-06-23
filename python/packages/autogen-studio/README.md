@@ -11,7 +11,7 @@ AutoGen Studio AutoGen Studio는 AI 에이전트를 신속하게 프로토타입
 
 ## 핵심 발췌
 
-예를 들어 에이전트에 Docker 코드 실행 환경을 사용합니다. However, other considerations such as rigorous tests related to jailbreaking, ensuring LLMs only have access to the right keys of data given the end user's permissions, and other security features are not implemented in AutoGen Studio. 프로덕션 애플리케이션을 구축하는 경우 AutoGen 프레임워크를 사용하고 필요한 보안 기능을 구현하십시오. 업데이트 2024 11 14: 업데이트된 AutoGen 0.4.0 api AgentChat API를 사용하도록 AutoGen Studio가 다시 작성되고 있습니다. 2024 04 17: 4월 17일: 이제 AutoGen Studio 데이터베이스 계층이 SQLModel(Pydantic + SQLAlchemy)을 사용하도록 다시 작성되었습니다. This provides entity linking (skills, models, agents and workflows are linked via association tables) and supports multiple database backend dialects supporte
+예를 들어 에이전트에 Docker 코드 실행 환경을 사용합니다. 그러나 탈옥과 관련된 엄격한 테스트, 최종 사용자의 권한에 따라 LLM이 올바른 데이터 키에만 액세스할 수 있도록 보장하는 등의 기타 고려 사항과 기타 보안 기능은 AutoGen Studio에서 구현되지 않습니다. 프로덕션 애플리케이션을 구축하는 경우 AutoGen 프레임워크를 사용하고 필요한 보안 기능을 구현하십시오. 업데이트 2024 11 14: 업데이트된 AutoGen 0.4.0 api AgentChat API를 사용하도록 AutoGen Studio가 다시 작성되고 있습니다. 2024 04 17: 4월 17일: 이제 AutoGen Studio 데이터베이스 계층이 SQLModel(Pydantic + SQLAlchemy)을 사용하도록 다시 작성되었습니다. 이는 엔터티 연결(기술, 모델, 에이전트 및 워크플로가 연관 테이블을 통해 연결됨)을 제공하고 여러 데이터베이스 백엔드 방언 지원을 지원합니다.
 
 ## 원문 내용
 
