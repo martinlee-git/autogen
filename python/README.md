@@ -7,7 +7,7 @@
 
 ## 한글 요약
 
-AutoGen Python 개발 가이드 이 디렉토리는 패키지/autogen 코어: 에이전트 런타임, 모델, 도구, 워크벤치, 메모리, 추적의 인터페이스 정의 및 참조 구현을 포함한 모든 프로젝트 패키지를 포함하는 단일 uv 작업 공간으로 작동합니다. packages/autogen Agentchat: Autogen Core를 기반으로 구축된 단일 및 다중 에이전트 워크플로입니다. packages/autogen ext: 생태계 통합을 위한 구현입니다. 예를 들어 autogen ext[openai]는 OpenAI 모델 클라이언트를 제공합니다. packages/autogen studio: AutoGen 에이전트를 구축하고 실행하기 위한 웹 기반 IDE입니다. 0.2.x에서 마이그레이션하시나요? 코드를 0.2.x에서 0.4.x로 마이그레이션하는 방법은 마이그레이션 가이드를 참조하세요. 빠른 시작 TL;DR, 다음을 사용하여 모든 검사를 실행하십시오. Setup uv는 AutoGen을 실행하는 데 필요한 환경을 생성하고 패키지를 설치하는 데 도움을 주는 패키지 관리자입니다. UV를 설치합니다. uv를 최신 버전으로 업그레이드하려면 다음을 실행하십시오: 가상 환경 개발 중에 패키지에 대한 변경 사항을 테스트해야 할 수도 있습니다.\ 그렇게 하려면 crea
+AutoGen Python 개발 가이드 이 디렉토리는 패키지/autogen 코어: 에이전트 런타임, 모델, 도구, 워크벤치, 메모리, 추적의 인터페이스 정의 및 참조 구현을 포함한 모든 프로젝트 패키지를 포함하는 단일 uv 작업 공간으로 작동합니다. packages/autogen Agentchat: Autogen Core를 기반으로 구축된 단일 및 다중 에이전트 워크플로입니다. packages/autogen ext: 생태계 통합을 위한 구현입니다. 예를 들어 autogen ext[openai]는 OpenAI 모델 클라이언트를 제공합니다. packages/autogen studio: a web based IDE for building and running AutoGen agents. 0.2.x에서 마이그레이션하시나요? 코드를 0.2.x에서 0.4.x로 마이그레이션하는 방법은 마이그레이션 가이드를 참조하세요. 빠른 시작 TL;DR, 다음을 사용하여 모든 검사를 실행하십시오. Setup uv는 AutoGen을 실행하는 데 필요한 환경을 생성하고 패키지를 설치하는 데 도움을 주는 패키지 관리자입니다. UV를 설치합니다. uv를 최신 버전으로 업그레이드하려면 다음을 실행하십시오: 가상 환경 개발 중에 패키지에 대한 변경 사항을 테스트해야 할 수도 있습니다.\ 그렇게 하려면 crea
 
 ## 핵심 발췌
 
